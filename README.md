@@ -3,8 +3,9 @@
 
 1.
 "Przygodowa gra 2D"Jest to gra ,w której głównym celem jest przejście dostępnych poziomów,
-2.
-Skład zespołu:
+
+2.Skład zespołu:
+
 
 -Artur Dłutek
 
