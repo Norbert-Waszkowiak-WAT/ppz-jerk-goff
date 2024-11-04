@@ -1,174 +1,166 @@
 
 
 
-1.
+## 1.
 "Przygodowa gra 2D"Jest to gra ,w której głównym celem jest przejście dostępnych poziomów,
 
-2.Skład zespołu:
-
-
--Artur Dłutek
-
--Olivier Piechota
-
--Piotr Stasiak
-
-3.Cel projektu:
+## 2.Skład zespołu:
+ - Artur Dłutek
+ - Olivier Piechota
+ - Piotr Stasiak
+## 3.Cel projektu:
 
 Głównym celem naszej gry jest przejście dostępnych poziomów za pomocą stworzonych mechanik, poziomy różnią się od siebie i są coraz trudniejsze. Wraz z postępem gry postać staje się coraz silniejsza.
 
-4.Zakres funkcjonalności:
+## 4.Zakres funkcjonalności:
 
-Moduły:
+  Moduły:
 
- 1.Moduł poruszania się:
+  1.Moduł poruszania się:
  
- 	-Sposób w jaki postać się porusza
-  
-	-Animacja stworzonej postaci
+ - Sposób w jaki postać się porusza  
+ - Animacja stworzonej postaci
+ - Dodaje możliwość skakania po ścianach
+ - Ulepsza mechanikę skakania postaci
  
-	-Dodaje możliwość skakania po ścianach
+   2.Moduł walki
  
-	-Ulepsza mechanikę skakania postaci
+ - Postać będzie w stanie wystrzelić pocisk w przeciwnika
  
- 2.Moduł walki
- 
-	-Postać będzie w stanie wystrzelić pocisk w przeciwnika
- 
-	-dodaje system życia
+ - dodaje system życia
  
 	
- 3.Moduł Graficzny:
+   3.Moduł Graficzny:
  
-	-dodaje on grafikę naszych poziomów
+ - dodaje on grafikę naszych poziomów
  
-	-dzięki niemu kamera podąża za postacią
+ - dzięki niemu kamera podąża za postacią
  
-	-dodaje iframes
+ - dodaje iframes
  
-	-dzięki niemu tworzymy wygląd naszej postaci a także przeciwników
+ - dzięki niemu tworzymy wygląd naszej postaci a także przeciwników
  
- 4.Moduł dźwięku:
+   4.Moduł dźwięku:
  
-	-dodaje dźwięk do wykonywanych przez postać ruchów oraz ataków a także dźwięk przeciwników i otocznia
+ - dodaje dźwięk do wykonywanych przez postać ruchów oraz ataków a także dźwięk przeciwników i otocznia
  
- 5.Moduł mechaniki poziomów:
+   5.Moduł mechaniki poziomów:
  
-	-dodaje on checkpointy i możliwość odradzania się naszej postaci
+ - dodaje on checkpointy i możliwość odradzania się naszej postaci
  
-	-dodaje on pułapki
+ - dodaje on pułapki
  
-	-tworzy on opcję GAME OVER w naszej grze
+ - tworzy on opcję GAME OVER w naszej grze
  
- 6.Moduł menu:
+6.Moduł menu:
  
-	-dodaje on menu pauzy 
+ - dodaje on menu pauzy 
  
-	-tworzy on menu gry
+ - tworzy on menu gry
  
-5.Technologia jaka została wykorzystana do stworzenia gry
+## 5.Technologia jaka została wykorzystana do stworzenia gry
 
-1.Język programowania:
+  1.Język programowania:
 
--csharp
+   - csharp
 
-2.framework:
+  2.framework:
 
--Unity
+   - Unity
 
-3.Narzędzia:
+  3.Narzędzia:
 
--Unity engine
+   - Unity engine
 
-6.Architektura systemu gry:
+## 6.Architektura systemu gry:
 
   Menu:
   
-	-Powinno one zawierać przycisk pauzy oraz możliwość zakończenia danego poziomu
+	 - Powinno one zawierać przycisk pauzy oraz możliwość zakończenia danego poziomu
  
   Grafika:
   
-	-Powinna ona być dobrze skalibrowana z systemem poruszania się i walki naszej postaci
+	 - Powinna ona być dobrze skalibrowana z systemem poruszania się i walki naszej postaci
  
-	-Nie powinna posiadać błędów które przyczyniłyby się do problemów z przejściem poziomu
+	 - Nie powinna posiadać błędów które przyczyniłyby się do problemów z przejściem poziomu
  
-7.Harmonogram prac dla etapów:
+## 7.Harmonogram prac dla etapów:
 
   Etap 1:Implementacja modułu poruszania
   
   Zadania:
   
-   -Projektowanie sposobu poruszania się postaci-Olivier Piechota
+    - Projektowanie sposobu poruszania się postaci-Olivier Piechota
    
-   -Animacja stworzonej postaci-Piotr Stasiak
+    - Animacja stworzonej postaci-Piotr Stasiak
    
-   -Dodanie możliwości skakania po ścianach-Artur Dłutek
+    - Dodanie możliwości skakania po ścianach-Artur Dłutek
    
-   -Ulepszona mechanika skakania-Olivier Piechota
+    - Ulepszona mechanika skakania-Olivier Piechota
    
   Etap 2:Implementacja modułu walki:
   
   Zadania:
   
-   -Dodanie opcji strzelania do postaci-Artur Dłutek
+    - Dodanie opcji strzelania do postaci-Artur Dłutek
    
-   -Stworzenie systemu życia postaci-Piotr Stasiak
+    - Stworzenie systemu życia postaci-Piotr Stasiak
    
   Etap 3:Implementacja Modułu graficznego
   
   Zadania:
   
-   -Stworzenie wyglądu poziomów-Piotr Stasiak
+    - Stworzenie wyglądu poziomów-Piotr Stasiak
    
-   -Stworzenie podążania kamery za postacią-Olivier Piechota
+    - Stworzenie podążania kamery za postacią-Olivier Piechota
    
-   -Stworzenie wyglądu naszej postaci i przeciwników oraz otoczenia -Artur Dłutek
+    - Stworzenie wyglądu naszej postaci i przeciwników oraz otoczenia -Artur Dłutek
    
-   -Stworzenie iframes-Piotr Stasiak
+    - Stworzenie iframes-Piotr Stasiak
    
   Etap 4:Implementacja modułu dźwięku
   
   Zadania:
   
-   -Dodanie dźwięku do akcji naszej postaci oraz dodanie dźwięku otoczenia-Olivier Pierchota
+    - Dodanie dźwięku do akcji naszej postaci oraz dodanie dźwięku otoczenia-Olivier Pierchota
    
   Etap 5:Implementacja modułu mechaniki poziomów
   
   Zadania:
   
-  -dodanie checkointów i możliwości odradzania się-Artur Dłutek
+   - dodanie checkointów i możliwości odradzania się-Artur Dłutek
   
-  -Stworzenie pułapek-Piotr Stasiak
+   - Stworzenie pułapek-Piotr Stasiak
   
-  -Stworzenie opcji Game over w naszej grze-Olivier Piechota
+   - Stworzenie opcji Game over w naszej grze-Olivier Piechota
   
   Etap 6:Implementacja modułu menu
   
   Zadania:
   
-   -Stworzenie menu pauzy-Artur Dłutek
+    - Stworzenie menu pauzy-Artur Dłutek
    
-   -Stworzenie menu gry-Olivier Piechota
+    - Stworzenie menu gry-Olivier Piechota
    
-8.Kryteria sukcesu:
+## 8.Kryteria sukcesu:
 
- -Gracz przechodzi poziomy bez żadnych komplikacji ze strony gry
+  - Gracz przechodzi poziomy bez żadnych komplikacji ze strony gry
  
- -Gracz jest w stanie odblokowywać kolejne poziomy
+  - Gracz jest w stanie odblokowywać kolejne poziomy
  
- -Grafika jest spójna i be błędów
+  - Grafika jest spójna i be błędów
  
- -Można pauzować grę i przechodzić poziomy od początku
+  - Można pauzować grę i przechodzić poziomy od początku
  
-9.Potencjalne ryzyka:
+## 9.Potencjalne ryzyka:
 
- -Problem z spójnością grafiki gry
+  - Problem z spójnością grafiki gry
  
- -bagi przeciwników
+  - bagi przeciwników
  
- -błędy związane ze sterowaniem
+  - błędy związane ze sterowaniem
  
- -Problemy z działaniem pułapek
+  - Problemy z działaniem pułapek
  
 
 	
