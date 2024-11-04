@@ -76,91 +76,90 @@ Głównym celem naszej gry jest przejście dostępnych poziomów za pomocą stwo
 
   Menu:
   
-	 - Powinno one zawierać przycisk pauzy oraz możliwość zakończenia danego poziomu
+ - Powinno one zawierać przycisk pauzy oraz możliwość zakończenia danego poziomu
  
   Grafika:
   
-	 - Powinna ona być dobrze skalibrowana z systemem poruszania się i walki naszej postaci
+ - Powinna ona być dobrze skalibrowana z systemem poruszania się i walki naszej postaci
  
-	 - Nie powinna posiadać błędów które przyczyniłyby się do problemów z przejściem poziomu
+ - Nie powinna posiadać błędów które przyczyniłyby się do problemów z przejściem poziomu
  
 ## 7.Harmonogram prac dla etapów:
 
   Etap 1:Implementacja modułu poruszania
   
   Zadania:
-  
-    - Projektowanie sposobu poruszania się postaci-Olivier Piechota
+ - Projektowanie sposobu poruszania się postaci-Olivier Piechota
    
-    - Animacja stworzonej postaci-Piotr Stasiak
+ - Animacja stworzonej postaci-Piotr Stasiak
    
-    - Dodanie możliwości skakania po ścianach-Artur Dłutek
+ - Dodanie możliwości skakania po ścianach-Artur Dłutek
    
-    - Ulepszona mechanika skakania-Olivier Piechota
+ - Ulepszona mechanika skakania-Olivier Piechota
    
   Etap 2:Implementacja modułu walki:
   
   Zadania:
   
-    - Dodanie opcji strzelania do postaci-Artur Dłutek
+ - Dodanie opcji strzelania do postaci-Artur Dłutek
    
-    - Stworzenie systemu życia postaci-Piotr Stasiak
+ - Stworzenie systemu życia postaci-Piotr Stasiak
    
   Etap 3:Implementacja Modułu graficznego
   
   Zadania:
   
-    - Stworzenie wyglądu poziomów-Piotr Stasiak
+ - Stworzenie wyglądu poziomów-Piotr Stasiak
    
-    - Stworzenie podążania kamery za postacią-Olivier Piechota
+ - Stworzenie podążania kamery za postacią-Olivier Piechota
    
-    - Stworzenie wyglądu naszej postaci i przeciwników oraz otoczenia -Artur Dłutek
+ - Stworzenie wyglądu naszej postaci i przeciwników oraz otoczenia -Artur Dłutek
    
-    - Stworzenie iframes-Piotr Stasiak
+ - Stworzenie iframes-Piotr Stasiak
    
   Etap 4:Implementacja modułu dźwięku
   
   Zadania:
   
-    - Dodanie dźwięku do akcji naszej postaci oraz dodanie dźwięku otoczenia-Olivier Pierchota
+ - Dodanie dźwięku do akcji naszej postaci oraz dodanie dźwięku otoczenia-Olivier Pierchota
    
   Etap 5:Implementacja modułu mechaniki poziomów
   
   Zadania:
   
-   - dodanie checkointów i możliwości odradzania się-Artur Dłutek
+ - dodanie checkointów i możliwości odradzania się-Artur Dłutek
   
-   - Stworzenie pułapek-Piotr Stasiak
+ - Stworzenie pułapek-Piotr Stasiak
   
-   - Stworzenie opcji Game over w naszej grze-Olivier Piechota
+ - Stworzenie opcji Game over w naszej grze-Olivier Piechota
   
   Etap 6:Implementacja modułu menu
   
   Zadania:
   
-    - Stworzenie menu pauzy-Artur Dłutek
+ - Stworzenie menu pauzy-Artur Dłutek
    
-    - Stworzenie menu gry-Olivier Piechota
+ - Stworzenie menu gry-Olivier Piechota
    
 ## 8.Kryteria sukcesu:
 
-  - Gracz przechodzi poziomy bez żadnych komplikacji ze strony gry
+ - Gracz przechodzi poziomy bez żadnych komplikacji ze strony gry
  
-  - Gracz jest w stanie odblokowywać kolejne poziomy
+ - Gracz jest w stanie odblokowywać kolejne poziomy
  
-  - Grafika jest spójna i be błędów
+ - Grafika jest spójna i be błędów
  
-  - Można pauzować grę i przechodzić poziomy od początku
+ - Można pauzować grę i przechodzić poziomy od początku
  
 ## 9.Potencjalne ryzyka:
 
-  - Problem z spójnością grafiki gry
+ - Problem z spójnością grafiki gry
  
-  - bagi przeciwników
+ - bagi przeciwników
  
-  - błędy związane ze sterowaniem
+ - błędy związane ze sterowaniem
  
-  - Problemy z działaniem pułapek
+ - Problemy z działaniem pułapek
  
 
 	
