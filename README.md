@@ -1,42 +1,95 @@
 [![Open in Visual Studio Code](https://classroom.github.com/assets/open-in-vscode-2e0aaae1b6195c2367325f4f02e2d04e9abb55f0b24a779b69b11b9e10269abc.svg)](https://classroom.github.com/online_ide?assignment_repo_id=16107381&assignment_repo_type=AssignmentRepo)
 # ppz_empty_with_gitignore
 
-1. Faza Planowania
-Określenie wymagań: Zdefiniujcie, jakie funkcje ma mieć aplikacja, np. dodawanie zadań, przypomnienia, widok kalendarza.
-Szkice interfejsu: Przygotujcie wstępne szkice, które pokażą, jak aplikacja ma wyglądać.
-2. Faza Projektowania
-UI/UX Design: Stwórzcie prototypy, które uwzględnią estetykę i funkcjonalność interfejsu. Zastanówcie się nad kolorami, czcionkami i układem.
-3. Faza Rozwoju
-Backend: Zdecydujcie, jaką bazę danych i technologię backendową wykorzystacie (np. Node.js, Python).
-Frontend: Rozpocznijcie prace nad interfejsem, wybierając odpowiedni framework (np. React, Vue.js).
-4. Faza Testowania
-Testy funkcjonalne: Sprawdźcie, czy wszystkie funkcje działają zgodnie z oczekiwaniami.
-Testy użyteczności: Przeprowadźcie testy z potencjalnymi użytkownikami, zbierając ich opinie.
-5. Faza Wdrożenia
-Publikacja aplikacji: Przygotujcie się do uruchomienia aplikacji na różnych platformach.
-Marketing: Zastanówcie się nad sposobami promocji, aby dotrzeć do szerszej publiczności.
-6. Faza Utrzymania
-Aktualizacje: Regularnie wprowadzajcie poprawki i nowe funkcje na podstawie feedbacku od użytkowników.
-Narzędzia
-Zarządzanie projektem: Trello lub Asana do organizacji zadań.
-Programowanie:
-Backend: Node.js lub Python (Django).
-Frontend: React lub Vue.js.
-Baza danych: PostgreSQL lub MongoDB.
-Design: Figma do tworzenia prototypów.
-Testowanie: Jest do testów jednostkowych.
-Wersjonowanie: Git (GitHub).
-Dokumentacja: Markdown lub Confluence.
-Podział Zadań
-Płatka
-Odpowiada za ustalenie wymagań i funkcji aplikacji.
-Przygotowuje wireframe'y.
-Przeprowadza testy funkcjonalne i zbiera feedback.
-Rudy
-Odpowiada za UI/UX Design i tworzy prototypy.
-Zajmuje się frontendem i integracją z backendem.
-Prowadzi testy użyteczności.
-Pedros
-Odpowiada za rozwój backendu i logikę aplikacji.
-Przygotowuje aplikację do wdrożenia.
-Monitoruje działanie aplikacji i wprowadza poprawki.
+
+1.
+"Przygodowa gra 2D"Jest to gra ,w której głównym celem jest przejście dostępnych poziomów,
+
+2.
+Skład zespołu:
+-Artur Dłutek
+-Olivier Piechota
+-Piotr Stasiak
+3.Cel projektu:
+Głównym celem naszej gry jest przejście dostępnych poziomów za pomocą stworzonych mechanik, poziomy różnią się od siebie i są coraz trudniejsze. Wraz z postępem gry postać staje się coraz silniejsza.
+4.Zakres funkcjonalności:
+Moduły:
+ 1.Moduł poruszania się:
+ 	-Sposób w jaki postać się porusza
+	-Animacja stworzonej postaci
+	-Dodaje możliwość skakania po ścianach
+	-Ulepsza mechanikę skakania postaci
+ 2.Moduł walki
+	-Postać będzie w stanie wystrzelić pocisk w przeciwnika
+	-dodaje system życia
+	
+ 3.Moduł Graficzny:
+	-dodaje on grafikę naszych poziomów
+	-dzięki niemu kamera podąża za postacią
+	-dodaje iframes
+	-dzięki niemu tworzymy wygląd naszej postaci a także przeciwników
+ 4.Moduł dźwięku:
+	-dodaje dźwięk do wykonywanych przez postać ruchów oraz ataków a także dźwięk przeciwników i otocznia
+ 5.Moduł mechaniki poziomów:
+	-dodaje on checkpointy i możliwość odradzania się naszej postaci
+	-dodaje on pułapki
+	-tworzy on opcję GAME OVER w naszej grze
+ 6.Moduł menu:
+	-dodaje on menu pauzy 
+	-tworzy on menu gry
+5.Technologia jaka została wykorzystana do stworzenia gry
+1.Język programowania:
+-csharp
+2.framework:
+-Unity
+3.Narzędzia:
+-Unity engine
+6.Architektura systemu gry:
+  Menu:
+	-Powinno one zawierać przycisk pauzy oraz możliwość zakończenia danego poziomu
+  Grafika:
+	-Powinna ona być dobrze skalibrowana z systemem poruszania się i walki naszej postaci
+	-Nie powinna posiadać błędów które przyczyniłyby się do problemów z przejściem poziomu
+7.Harmonogram prac dla etapów:
+  Etap 1:Implementacja modułu poruszania
+  Zadania:
+   -Projektowanie sposobu poruszania się postaci-Olivier Piechota
+   -Animacja stworzonej postaci-Piotr Stasiak
+   -Dodanie możliwości skakania po ścianach-Artur Dłutek
+   -Ulepszona mechanika skakania-Olivier Piechota
+  Etap 2:Implementacja modułu walki:
+  Zadania:
+   -Dodanie opcji strzelania do postaci-Artur Dłutek
+   -Stworzenie systemu życia postaci-Piotr Stasiak
+  Etap 3:Implementacja Modułu graficznego
+  Zadania:
+   -Stworzenie wyglądu poziomów-Piotr Stasiak
+   -Stworzenie podążania kamery za postacią-Olivier Piechota
+   -Stworzenie wyglądu naszej postaci i przeciwników oraz otoczenia -Artur Dłutek
+   -Stworzenie iframes-Piotr Stasiak
+  Etap 4:Implementacja modułu dźwięku
+  Zadania:
+   -Dodanie dźwięku do akcji naszej postaci oraz dodanie dźwięku otoczenia-Olivier Pierchota
+  Etap 5:Implementacja modułu mechaniki poziomów
+  Zadania:
+  -dodanie checkointów i możliwości odradzania się-Artur Dłutek
+  -Stworzenie pułapek-Piotr Stasiak
+  -Stworzenie opcji Game over w naszej grze-Olivier Piechota
+  Etap 6:Implementacja modułu menu
+  Zadania:
+   -Stworzenie menu pauzy-Artur Dłutek
+   -Stworzenie menu gry-Olivier Piechota
+8.Kryteria sukcesu:
+ -Gracz przechodzi poziomy bez żadnych komplikacji ze strony gry
+ -Gracz jest w stanie odblokowywać kolejne poziomy
+ -Grafika jest spójna i be błędów
+ -Można pauzować grę i przechodzić poziomy od początku
+9.Potencjalne ryzyka:
+ -Problem z spójnością grafiki gry
+ -bagi przeciwników
+ -błędy związane ze sterowaniem
+ -Problemy z działaniem pułapek
+
+	
+
+
