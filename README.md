@@ -25,47 +25,88 @@ Moduły:
  	-Sposób w jaki postać się porusza
   
 	-Animacja stworzonej postaci
+ 
 	-Dodaje możliwość skakania po ścianach
+ 
 	-Ulepsza mechanikę skakania postaci
+ 
  2.Moduł walki
+ 
 	-Postać będzie w stanie wystrzelić pocisk w przeciwnika
+ 
 	-dodaje system życia
+ 
 	
  3.Moduł Graficzny:
+ 
 	-dodaje on grafikę naszych poziomów
+ 
 	-dzięki niemu kamera podąża za postacią
+ 
 	-dodaje iframes
+ 
 	-dzięki niemu tworzymy wygląd naszej postaci a także przeciwników
+ 
  4.Moduł dźwięku:
+ 
 	-dodaje dźwięk do wykonywanych przez postać ruchów oraz ataków a także dźwięk przeciwników i otocznia
+ 
  5.Moduł mechaniki poziomów:
+ 
 	-dodaje on checkpointy i możliwość odradzania się naszej postaci
+ 
 	-dodaje on pułapki
+ 
 	-tworzy on opcję GAME OVER w naszej grze
+ 
  6.Moduł menu:
+ 
 	-dodaje on menu pauzy 
+ 
 	-tworzy on menu gry
+ 
 5.Technologia jaka została wykorzystana do stworzenia gry
+
 1.Język programowania:
+
 -csharp
+
 2.framework:
+
 -Unity
+
 3.Narzędzia:
+
 -Unity engine
+
 6.Architektura systemu gry:
+
   Menu:
+  
 	-Powinno one zawierać przycisk pauzy oraz możliwość zakończenia danego poziomu
+ 
   Grafika:
+  
 	-Powinna ona być dobrze skalibrowana z systemem poruszania się i walki naszej postaci
+ 
 	-Nie powinna posiadać błędów które przyczyniłyby się do problemów z przejściem poziomu
+ 
 7.Harmonogram prac dla etapów:
+
   Etap 1:Implementacja modułu poruszania
+  
   Zadania:
+  
    -Projektowanie sposobu poruszania się postaci-Olivier Piechota
+   
    -Animacja stworzonej postaci-Piotr Stasiak
+   
    -Dodanie możliwości skakania po ścianach-Artur Dłutek
+   
    -Ulepszona mechanika skakania-Olivier Piechota
+   
   Etap 2:Implementacja modułu walki:
+  
   Zadania:
   
    -Dodanie opcji strzelania do postaci-Artur Dłutek
