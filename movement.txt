@@ -1,0 +1,19 @@
+1.	public class PlayerMovement : MonoBehaviour
+2.	{ 
+3.	    [SerializeField] private float speed;
+4.	    private Rigidbody2D body;
+5.	 
+6.	    private void Awake()
+7.	    {
+8.	        body = GetComponent<Rigidbody2D>();
+9.	    }
+10.	 
+11.	    private void Update()
+12.	    {
+13.	        body.velocity = new Vector2(Input.GetAxis("Horizontal") * speed, body.velocity.y);
+14.	 
+15.	        if (Input.GetKey(KeyCode.Space))
+16.	            body.velocity = new Vector2(body.velocity.x, speed);
+17.	    }
+18.	}
+
